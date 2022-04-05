@@ -11,8 +11,7 @@ $(document).ready(function() {
             $("p").html("Please Fill Out Required Fields");
             $("p").addClass("warning")
         } else {
-            required[i].prev().addClass('warning');
-            message.addClass('warning')
+            required[i].prev().addClass('warning')
         }
     } 
     if (!$('label').hasClass('warning')){
@@ -20,5 +19,6 @@ $(document).ready(function() {
     $("h2").html("Thank you for your feedback");
 
 }
+})
 }
-});
+)
